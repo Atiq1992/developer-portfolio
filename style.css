@@ -1,12 +1,13 @@
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 0;
+    margin: 3px;
 }
 h1{
     font-size: 40px;
 }
 .orange-color{color: orange;}
-section{
+
+.flexible-container{
     display: flex;
     margin-bottom: 40px;
 }
@@ -35,4 +36,26 @@ section{
     background-repeat: no-repeat;
     background-size: 70px 70px;
     background-position: right top;
+}
+.experience-area{
+    background-image: url(img/Rectangle\ 20.png);
+    background-repeat: no-repeat;
+    background-size: 170px 70px;
+    background-position: left center;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-left: 5%;
+    padding-left: 20px;
+    box-shadow: 5px 5px 30px gray;
+}
+#ex-1{
+    border-left: 5px solid tomato;
+}
+#ex-2{
+    border-left: 5px solid rgb(65, 5, 246);
+}
+footer p{
+    text-align: center;
 }
